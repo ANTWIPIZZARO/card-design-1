@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-screen h-screen">
+      <!-- Navbar section -->
+      <header
+        class="flex item-center justify-center gap-16 shadow-md pt-3 pb-3"
+      >
+        <div class="">
+          <img src="./assets/vote-logo.jpg" />
+        </div>
+        <div class="">
+          <ul class="flex items-start gap-6 text-1x pt-2 pb-6">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Election</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-start gap-16">
+          <img src="./assets/Notification.jpg" class="w-9 h-9" />
+          <img src="./assets/Profie.jpg" class="w-9 h-9" />
+        </div>
+      </header>
+      <!-- Main section -->
+      <main
+        class="w-[600px] h-max mx-auto mt-5 shadow-2xl flex flex-col items-center justify-center rounded-lg py-4"
+      >
+        <!-- Top section -->
+        <div class="text-center font-bold text-2xl">
+          <p>THANK YOU!!!</p>
+          <p>Your vote has been submitted successfully</p>
+        </div>
+
+        <!-- Image section -->
+        <div class="w-[380px] h-[380px]">
+          <img src="./assets/voter.png" />
+        </div>
+
+        <!-- Bottom section -->
+        <div class="flex flex-col gap-4">
+          <button
+            class="bg-[#00906C] text-xl py-2 px-8 rounded-lg font-bold text-white"
+          >
+            Vote for Secret Position
+          </button>
+          <button
+            class="bg-white text-lg py-2 pl-2 pr-2 rounded-lg font-bold text-[#00906C] border-2 border-[#00906C]"
+          >
+            Back to Homepage
+          </button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
