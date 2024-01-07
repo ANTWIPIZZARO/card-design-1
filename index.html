@@ -10,13 +10,16 @@
     <div class="w-screen h-screen">
       <!-- Navbar section -->
       <header
-        class="flex item-center justify-center gap-16 shadow-md pt-3 pb-3"
+        class="flex item-center justify-center gap-16 shadow-md pt-3 pb-3 max-md:w-full max-sm:flex-col max-sm:gap-1 max-sm:items-center"
       >
         <div class="">
           <img src="./assets/vote-logo.jpg" />
         </div>
+
         <div class="">
-          <ul class="flex items-start gap-6 text-1x pt-2 pb-6">
+          <ul
+            class="flex items-start gap-6 text-1x pt-2 pb-6 max-sm:gap-1 max-sm:flex-col max-sm:items-center"
+          >
             <li>
               <a href="#">Home</a>
             </li>
@@ -31,35 +34,36 @@
             </li>
           </ul>
         </div>
-        <div class="flex items-start gap-16">
+
+        <div class="flex items-start gap-16 max-sm:gap-1">
           <img src="./assets/Notification.jpg" class="w-9 h-9" />
           <img src="./assets/Profie.jpg" class="w-9 h-9" />
         </div>
       </header>
       <!-- Main section -->
       <main
-        class="w-[600px] h-max mx-auto mt-5 shadow-2xl flex flex-col items-center justify-center rounded-lg py-4"
+        class="w-[600px] h-max mx-auto mt-5 shadow-2xl flex flex-col items-center justify-center rounded-lg py-4 max-sm:w-96 max-[499px]:w-[350px] max-[299px]:w-[250px] max-[299px]:h-[380px] overflow-hidden"
       >
         <!-- Top section -->
-        <div class="text-center font-bold text-2xl">
+        <div class="text-center font-bold text-2xl max-[399px]:text-xl">
           <p>THANK YOU!!!</p>
           <p>Your vote has been submitted successfully</p>
         </div>
 
         <!-- Image section -->
-        <div class="w-[380px] h-[380px]">
+        <div class="w-[380px] h-[380px] max-md:w-[320px] max-[299px]:w-[200px]">
           <img src="./assets/voter.png" />
         </div>
 
         <!-- Bottom section -->
         <div class="flex flex-col gap-4">
           <button
-            class="bg-[#00906C] text-xl py-2 px-8 rounded-lg font-bold text-white"
+            class="bg-[#00906C] text-xl py-2 px-8 rounded-lg font-bold text-white max-[499px]:text-sm"
           >
             Vote for Secret Position
           </button>
           <button
-            class="bg-white text-lg py-2 pl-2 pr-2 rounded-lg font-bold text-[#00906C] border-2 border-[#00906C]"
+            class="bg-white text-lg py-2 pl-2 pr-2 rounded-lg font-bold text-[#00906C] border-2 border-[#00906C] max-[499px]:text-sm"
           >
             Back to Homepage
           </button>
