@@ -3,60 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Card design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <dev class="w-screen h-screen">
-        <header class="flex item-center justify-center  gap-16 shadow-md pt-3 pb-3">
-            <dev class="">
+    <div class="W-sreen h-sreen">
+        <header class="flex items-center justify-center gap-16 shadow md pt-3 pb-3">
+            <div >
                 <img src="./assets/vote-logo.jpg"/>
-            </dev>
-            <dev class=" ">
-                <ul class="flex items-start gap-6 text-1x pt-2 pb-6">
-                    <li> 
+            </div>
+            <div>
+                <lu class="flex items-start gap-5 text-lg">
+                    <li>
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">Election</a>
+                        <a href="#">Elections</a>
                     </li>
-                    <li>
+                    <li> 
                         <a href="#">About Us</a>
                     </li>
                     <li>
                         <a href="#">Contact Us</a>
                     </li>
-                </ul>
-            </dev>
-            <dev class=" flex items-start gap-16">
+                </lu>
+            </div>
+            <div class="flex gap-20">
                 <img src="./assets/Notification.jpg" class="w-9 h-9"/>
-                <img src="./assets/Profie.jpg" class="w-9 h-9"/>
-            </dev>
-        </header>
-        <main class="w-[773px] h-max bg-neutral-200 mx-auto mt-10 flex flex-col">
-            <dev class="">
-                <p class="p-10">THANK YOU!!!</p>
-            </dev>
-            <dev>
-                <p>Your vote has been submitted successfully</p>
-            </dev>
-            <dev>
-                <img src="./assets/group-2.jpg">"
-                <img src="./assets/Group.jpg">"
-                <img src="./assets/Group-3.jpg">
-                <img src="./assets/Group-4.jpg">
-                <img src="./assets/Group-5.jpg">
-            </dev>
-            <dev>
-                <p>Vote for Secret Position</p>
-            </dev>
-            <dev>
-                <p>Back to Homepage</p>
-            </dev>
+                <img src="./assets/Profie.jpg" class=" w-9 h-9"/>
+            </div>            
 
-        </main>      
+        </header>
+        <main class="w-[473px] h-max bg-white mx-auto mt-10 flex flex-col justify-center items-center shadow-lg rounded-lg">
+            <!--Top section-->
+            <div class=" flex flex-col item-center justify center ">
+                <p class="pt-3 font-bold text-xl"> Thank You!!!</p>
+            </div>
+            <div>
+                <p class="pt-8 text-xl pb-8 font-medium text-center">Your vote has been submitted successfully</p>
+            </div>
+            <!--Middle section-->
+            <div class="">
+                <img src="./assets/13591884_5296797 1card.png" class="w-[247px] h[247px]"/>
+            </div>
+            <!--botton section-->
+            <div class="flex flex-col pb-5 gap-5">
+                <button class="h-10 w-64 bg-[#00906c] rounded-lg text-white font-bold  mx-auto  ">Vote for Secretariat Position</button>
             
-    </dev>
+            </div>
+            <div>
+                <botton class="w-48 h-6 bg-[#FFFFFF] rounded-lg text-[#00906C] pt-3 border-2 border-[#00906C] font-medium mx-auto ">Back to Homepage</botton>
+            </div>
+            
+
+        </main>
+    </div>
     
 </body>
-</html> 
+</html>
